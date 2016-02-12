@@ -3,7 +3,11 @@ build_image: drydock/u14nodpls:tip
 language: node_js
 
 node_js:
-  - "0.10"
+  - 0.10
+  - 0.11
+  - 4.2.2
+  - 5.0
+  - 0.12
 
 services:
   - selenium
