@@ -11,6 +11,8 @@ node_js:
 
 services:
   - selenium
+install:
+  - npm install
 
 script:
  - xvfb-run --server-args="-ac" npm test
